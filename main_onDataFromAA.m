@@ -10,7 +10,7 @@ addpath('./direct-liftandunlift-codes');
 addpath('./operators/');
 %% create folders to save background volumes and motion params
 PWD = pwd;
-subj_path = '/fileserver/fetal/fmri/motioncompensation/datafromAA/LT_4934901_26192150';
+subj_path = '/fileserver/fetal/fmri/motioncompensation/datafromAA/subjectfolder';
 data_path = strcat(subj_path,'/input/');
 files = dir(strcat(data_path,'*.nii.gz'));
 bgrm_path = strcat(data_path,'/bgremoved/');
